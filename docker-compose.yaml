@@ -4,7 +4,7 @@ services:
   frontend:
     image: excalidraw:v0.1.0-6924530
     ports:
-      - 80:80
+      - 23345:80
 
   storage:
     image: excalidraw-storage-backend:v0.1.0-6924530
